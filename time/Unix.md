@@ -54,4 +54,14 @@
 	
 	func main() {
 	    fmt.Println(time.Unix(1000, 340))
+	    
+	    //时间戳
+	    t := time.Now().Unix()
+	    fmt.Println(t)
+	     
+	    //时间戳到具体显示的转化
+	    fmt.Println(time.Unix(t, 0).String())
+    	
 	}
+	
+ 
