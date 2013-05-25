@@ -61,6 +61,9 @@
 	     
 	    //时间戳到具体显示的转化
 	    fmt.Println(time.Unix(t, 0).String())
+	    
+	    //如数时间戳是毫秒数，先除1000
+	    fmt.Println(time.Unix(timestamp/1000, 0).String())
     	
 	}
 	
